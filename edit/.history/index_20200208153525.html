@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="assets/css/vendor/all.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Home</title>
+  </head>
+  <body>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+
+
+    <!--Navbar -->
+    <nav class="mb-1 navbar navbar-expand-lg navbar-light info-color bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src=""
+          height="30"
+          class="d-inline-block align-top nav-logo"
+          alt="."
+        />
+        <div class="upload-logo btn btn-light">
+          <i class="fas fa-upload"></i><br>
+          Upload <br> Logo
+          <input type="file" class="uploaded-logo-img" onchange="logoimg(this)" name="logo">
+        </div>
+      </a>
+      <input type="text" name="logo-title" class="logo-title" placeholder="logo-title">
+      <div
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent-4"
+        aria-controls="navbarSupportedContent-4"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+    </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">
+              About
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#services">
+              Services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- header -->
+
+   <header
+      style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('');"
+    >
+      <div class="row text-left">
+        <div class="col-md-4">
+          <textarea class="header-title" placeholder="Enter header title" rows="3" name="header-title"></textarea>
+          <textarea class="my-3 header-desc" placeholder="Enter header description" rows="4" name="header-desc"></textarea>
+
+          <a href="#"
+            ><div class="btn btn-light text-dark watch">
+              <i class="fas fa-play"></i></div
+          ><input type="text" class="social-input social-youtube" placeholder="Enter video link"></a>
+
+          <div class="edit-header template-edit">
+            <i class="fas fa-pen"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="edit-header-background">
+        <i class="far fa-image"></i><br>
+        upload <br>
+        background image
+        <input type="file" class="uploaded-header-img"  onchange="headerimg(this)" name="header-img">
+      </div>
+    </header>
+
+    <!-- about -->
+
+    <section id="about">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center about-body">
+          <h2 class="title my-5 text-uppercase">About</h2>
+
+          <textarea class="about-title head" placeholder="Enter about title" rows="1" name="about-title"></textarea>
+          <div class="col-md-10 mx-auto">
+            <textarea class="about-desc" placeholder="Enter about description" rows="6" name="about-desc"></textarea>
+          </div>
+
+          <div class="edit-about template-edit">
+            <i class="fas fa-pen"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container-fluid">
+        <div class="row service-head">
+          <div class="col-md-12 text-center">
+            <h2 class="head text-uppercase my-5">
+              Services
+            </h2>
+          </div>
+
+          <div class="col-md-8 mx-auto text-center">
+            <textarea class="services-desc" placeholder="Enter services description" rows="9" name="services-desc"></textarea>
+            <div class="edit-service-desc template-edit">
+              <i class="fas fa-pen"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row px-2 service-body">
+          <div class="col-md-3 service mx-auto mt-3">
+            <span>
+              <i class="fas fa-city"></i>
+           
+            <textarea class="service1-title service-title" placeholder="Enter service title" rows="1" name="service1-title"></textarea>
+              </span>
+            <textarea class="service1-desc service-desc" placeholder="Enter service description" rows="8" name="service1-desc"></textarea>
+            <div class="edit-service template-edit">
+              <i class="fas fa-pen"></i>
+            </div>
+          </div>
+          <div class="col-md-3 service mx-auto mt-3">
+            <span>
+              <i class="fas fa-city"></i>
+           
+            <textarea class="service2-title service-title" placeholder="Enter service title" rows="1" name="service2-title"></textarea>
+              </span>
+            <textarea class="service2-desc service-desc" placeholder="Enter service description" rows="8" name="service2-desc"></textarea>
+            <div class="edit-service template-edit">
+              <i class="fas fa-pen"></i>
+            </div>
+          </div>
+          <div class="col-md-3 service mx-auto mt-3">
+            <span>
+              <i class="fas fa-city"></i>
+           
+            <textarea class="service3-title service-title" placeholder="Service-title" rows="1" name="service3-title"></textarea>
+              </span>
+            <textarea class="service3-desc service-desc" placeholder="Enter service description" rows="8" name="service3-desc"></textarea>
+            <div class="edit-service template-edit">
+              <i class="fas fa-pen"></i>
+            </div>
+          </div>
+          <div class="col-md-3 service mx-auto mt-3">
+            <span>
+              <i class="fas fa-city"></i>
+           
+            <textarea class="service4-title service-title" placeholder="Service-title" rows="1" name="service4-title"></textarea>
+              </span>
+            <textarea class="service4-desc service-desc" placeholder="Enter service description" rows="8" name="service4-desc"></textarea>
+            <div class="edit-service template-edit">
+              <i class="fas fa-pen"></i>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+
+    <section
+      id="contact"
+      style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('');"
+    >
+      <div class="row">
+        <div class="col-md-6 col-sm-8 col-10 mx-auto">
+          <div class="card card-body text-center">
+            <div class="contact-head">
+              <h2>
+                Contacts
+              </h2>
+
+              <textarea class="contact-desc my-4" placeholder="Enter contact description" rows="5" name="contact-desc"></textarea>
+            </div>
+
+            <div class="contact-body">
+              <h5>
+                Email:
+                <input class="contact-email contact-info my-4" placeholder="Enter your email address" rows="1" name="contact-email">
+              </h5>
+              <h5>
+                Phone number:
+                <input class="contact-phone contact-info my-4" placeholder="Enter your phone number" rows="1" name="contact-phone">
+              </h5>
+              <h5>
+                Address:
+                <input class="contact-address contact-info my-4" placeholder="Enter your address" rows="1" name="contact-address">
+              </h5>
+
+              <div class="social">
+                <h5>
+                  Social media
+                </h5>
+               <a href="#"><span><i class="fab fa-facebook-f"></i></span
+                ></a> <input type="text" class="social-input social-facebook" name="contact-facebook" placeholder="Facebook link"><br><br>
+                <a href="#"
+                  ><span><i class="fab fa-twitter"></i></span
+                ></a><input type="text" class="social-input social-twitter" name="contact-twitter" placeholder="Twitter link">
+              </div>
+              <div class="edit-contact template-edit">
+                <i class="fas fa-pen"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="edit-contact-background">
+        <i class="far fa-image"></i><br>
+        upload <br>
+        background image
+        <input type="file" class="uploaded-contact-img"  onchange="contactimg(this)" name="contact-img">
+      </div>
+    </section>
+
+
+    <sevtion id="submit">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center my-4">
+        <a><div class="btn btn-danger m-3" onclick="ignore()">Ignore</div></a> 
+        <a><button class="btn btn-primary m-3"  onclick="submit()" type="submit" name="submit">Submit</div></a> 
+        </div>
+      </div>
+    </sevtion>
+
+    <!-- footer -->
+
+    <footer>
+      <span> commpunity</span>  &copy; 2020
+    </footer>
+
+
+  </form>
+
+
+
+    <script src="assets/js/vendor/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,332 @@
+* {
+    margin: 0l;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+// navbar
+nav.bg-light {
+    background-color: white !important;
+
+    .navbar-brand {
+        margin-left: 30px;
+        font-weight: 500;
+
+        @media(max-width:576px) {
+            margin-left: 10px;
+        }
+    }
+
+    .nav-item {
+        margin-right: 50px;
+
+        a {
+            font-weight: 700;
+        }
+    }
+}
+
+// header
+
+header {
+    height: 750px;
+    width: 100vw;
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/header.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @media(max-width:576px) {
+        height: 550px;
+    }
+
+    .row {
+        width: 100%;
+        padding: 50px;
+
+        @media(max-width:576px) {
+            padding: 0px !important;
+        }
+
+        h2 {
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-family: 'Raleway', sans-serif;
+
+            @media(max-width:576px) {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            color: rgb(204, 202, 202);
+
+            @media(max-width:576px) {
+                font-size: 13px;
+            }
+        }
+
+        .btn {
+            font-weight: 600;
+            padding: 6px 48px;
+
+            @media(max-width: 576px) {
+                padding: 6px 20px;
+                font-size: 13px;
+                ;
+            }
+        }
+
+        span {
+            font-size: 25px;
+        }
+
+        .watch {
+            border-radius: 100%;
+            padding: 6px 12px;
+
+        }
+    }
+
+}
+
+// about
+
+#about {
+    margin-top: 100px;
+
+    h2 {
+        @media(max-width:576px) {
+            font-size: 25px;
+        }
+    }
+
+
+
+    .head {
+        margin-top: 120px;
+        margin-bottom: 70px;
+        color: #0E4D81;
+
+        @media(max-width:576px) {
+            font-size: 25px;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+    }
+
+    p {
+        color: rgb(32, 32, 32);
+        font-weight: 500;
+
+        @media(max-width:576px) {
+            font-size: 13px;
+        }
+    }
+
+    .about-body {
+        padding: 0;
+    }
+
+}
+
+// services
+
+#services {
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+    @media(max-width:576px) {
+        font-size: 30px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    .service-head {
+        margin-bottom: 150px;
+
+        @media(max-width:576px) {
+            margin-bottom: 50px;
+        }
+
+        .head {
+            margin-top: 120px;
+            margin-bottom: 70px;
+            font-weight: 400;
+
+            @media(max-width:576px) {
+                font-size: 25px;
+            }
+        }
+
+        p {
+            color: gray;
+            letter-spacing: 1px;
+
+            @media(max-width:576px) {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .service-body {
+
+        .service {
+            h3 {
+                color: #4F7CA3;
+
+                span {
+                    margin-right: 20px;
+                }
+
+                @media(max-width:576px) {
+                    font-size: 25px;
+                }
+            }
+
+            p {
+                color: gray;
+                word-spacing: 1px;
+
+                @media(max-width:576px) {
+                    font-size: 13px;
+                }
+            }
+
+            @media(max-width:768px) {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+        }
+
+    }
+
+}
+
+// contacts
+
+#contact {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 150px;
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .contact-head {
+        h2 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-weight: 400;
+            text-transform: uppercase;
+
+            @media(max-width:576px) {
+                font-size: 25px;
+            }
+        }
+
+        p {
+            width: 70%;
+            margin: 80px auto;
+            color: gray;
+            letter-spacing: 2px;
+
+            @media(max-width:576px) {
+                width: 95%;
+                letter-spacing: 1px;
+                font-size: 13px;
+                margin: 40px auto;
+            }
+        }
+    }
+
+    .contact-body {
+        h5 {
+            margin-bottom: 50px;
+
+            @media(max-width:576px) {
+                font-size: 17px;
+                margin-bottom: 20px;
+            }
+
+            span {
+                color: gray;
+            }
+        }
+
+        .social {
+            margin-bottom: 150px;
+
+            @media(max-width:576px) {
+                margin-bottom: 75px;
+            }
+
+            h5 {
+                margin-bottom: 20px;
+            }
+
+            a {
+                color: gray;
+                font-size: 20px;
+                text-decoration: none;
+                margin: 10px;
+            }
+
+            a:hover {
+                color: black;
+                text-decoration: none;
+            }
+
+        }
+
+
+    }
+
+    .card-body {
+        border-radius: 10px;
+
+        @media(max-width:576px) {
+            padding: 0;
+        }
+    }
+
+    .card {
+        background-color: #ffffffe6 !important;
+    }
+}
+
+// footer
+
+footer {
+    background-color: #F8F8F8;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+
+    @media(max-width:576px) {
+        font-size: 15px;
+    }
+
+    span {
+        color: #386182;
+    }
+}
